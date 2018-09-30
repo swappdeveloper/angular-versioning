@@ -1,0 +1,23 @@
+{
+  "id": "VersionBuilderSchema",
+  "title": "Version builder",
+  "description": "Version builder options",
+  "properties": {
+    "format": {
+      "type": "string",
+      "description": "version date format",
+      "version": "00.00.00",
+      "default": "dd-mm-yyyy"
+    },
+    "destPath": {
+      "type": "string",
+      "description": "Path to the version file",
+      "default": "./appsettings"
+    },
+    "version": {
+      "type": "string",
+      "description": "version format",
+      "version": "00.00.00"
+    }
+  }
+}

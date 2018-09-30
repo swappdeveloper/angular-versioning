@@ -1,0 +1,23 @@
+{
+  "name": "ts-version-builder",
+  "version": "1.0.6",
+  "description": "Creates version.json file formatted",
+  "main": "version.builder.js",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.8.3",
+    "@angular-devkit/core": "^0.8.3",
+    "@types/dateformat": "^1.0.1",
+    "@types/node": "^10.11.3",
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "builders": "builders.json",
+  "license": "ISC"
+}
